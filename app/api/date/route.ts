@@ -6,6 +6,6 @@ export async function GET() {
   return NextResponse.json({
     iso: now.toISOString(),
     utc: now.toString(),
-    local: now.toLocaleString(),
+    local: now.toLocaleString("ko-KR"),
   });
 }
