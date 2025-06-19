@@ -18,6 +18,7 @@ export default function Home() {
     const data = await response.json();
 
     const now = new Date();
+    console.log(now);
     console.log(now.toISOString());
     console.log(now.toString());
     console.log(now.toLocaleString());
